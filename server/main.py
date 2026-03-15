@@ -1,4 +1,7 @@
 from flask import Flask,render_template
+from flask_cors import CORS
+
+cors=CORS(app,origin="*")
 
 app=Flask(__name__)
 

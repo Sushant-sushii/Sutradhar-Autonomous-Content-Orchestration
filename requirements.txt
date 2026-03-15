@@ -1,0 +1,9 @@
+Flask==3.0.2
+Flask-Cors==4.0.0  # CRITICAL: Allows your Vite app to talk to Flask
+
+# Firebase Integration
+firebase-admin==6.5.0
+
+# Environment & Utils
+python-dotenv==1.0.1
+requests==2.31.0

@@ -10,9 +10,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+<<<<<<< HEAD
     "axios": "^1.14.0",
+=======
+    "@tailwindcss/vite": "^4.2.1",
+    "@xyflow/react": "^12.10.1",
+>>>>>>> b2c7bc78fa835a14141f5271ec089dc9c6a74759
     "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "react-dom": "^19.1.1",
+    "react-router-dom": "^7.13.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",

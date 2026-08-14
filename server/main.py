@@ -1,13 +1,18 @@
-from flask import Flask,render_template
+from flask import Flask,render_template,jsonify
 from flask_cors import CORS
 
-cors=CORS(app,origin="*")
+
 
 app=Flask(__name__)
+cors=CORS(app,origin="*")
 
 @app.route("/",methods=['GET'])
 
 def users():
-    return "dashboard"
+    return {
+        "users":["ramu",
+                 "shayamu",
+                 "gyanesh"]
+    }
 if __name__=="__main__":
     app.run(debug=True)
